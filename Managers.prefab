@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2460221766422650124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2460221766422650162}
+  - component: {fileID: 2460221766422650125}
+  - component: {fileID: 2460221766422650163}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2460221766422650162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2460221766422650124}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.27, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2460221766422650125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2460221766422650124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a52078a222afe1438de43d71ff0126e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  featureCount: 0
+  maxFeatureCount: 20
+  features:
+  - {fileID: 8837656758180636075, guid: 14f8c29fcbe6c1744b5ef1dc9ab8c3b1, type: 3}
+  - {fileID: 8392686340724078623, guid: 2b6bbf41fdf44d34dae202c20556d87e, type: 3}
+  - {fileID: 6554334541935585558, guid: f02c8a24345f71142bb2e0191dde1bf0, type: 3}
+  - {fileID: 190855865670178199, guid: 81639139d4fe5244ca7e6f5a24496503, type: 3}
+  - {fileID: 190855865670178199, guid: a0c8f3d6497b0614cbff0e5176f2f681, type: 3}
+  - {fileID: 190855865670178199, guid: 1f7040780e7a1184bb16a7d6dbecb775, type: 3}
+  - {fileID: 190855865670178199, guid: 0526ccefe12baf248a1952d8ca4f2475, type: 3}
+  - {fileID: 190855865670178199, guid: dd64b0f18de5b0c48aa017aab77d5846, type: 3}
+  - {fileID: 190855865670178199, guid: b8439b4e30d4b0e41a1d65bd4f844385, type: 3}
+  - {fileID: 190855865670178199, guid: c4169347ab505db48b4274c6ea19f305, type: 3}
+  - {fileID: 190855865670178199, guid: d414d1ca24bc48e44bb4ea509624c8be, type: 3}
+  - {fileID: 190855865670178199, guid: a185a0db155699b45a141a0b6559b802, type: 3}
+  - {fileID: 190855865670178199, guid: e0ed8c6946596144a84ac8ee12c14058, type: 3}
+  featureLength: 11
+  spawnHeight: 15
+  spawnX: 15
+  uiScript: {fileID: 0}
+  target: {fileID: 0}
+--- !u!114 &2460221766422650163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2460221766422650124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d4810b4d0223147950232505fd04ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 0}
+  loseScript: {fileID: 0}
+  score: 0
+  negScore: 0
+  winScore: 100
+  loseScore: 75
+  lost: 0
+  won: 0
+  menu: {fileID: 2424118889506977157, guid: c41d431e7b11e6348a3d95b641c60c34, type: 3}
+  paused: 0
+  menuObj: {fileID: 0}
+  winCoinCount: 500
